@@ -1,0 +1,178 @@
+/* HTML5 display-role reset for older browsers */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* CSS Enhancements for Better User Experience */
+
+::selection {
+	background:#ececec;
+	color:#000; /* Safari and Opera */
+}
+	
+::-moz-selection {
+	background:#ececec;
+	color:#000; /* Firefox */
+}
+
+html {
+	overflow-y:scroll;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	tap-highlight-color: rgba(0, 0, 0, 0);
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+.page-break {
+	page-break-before:always;
+}
+
+input[type=submit], label, select, .pointer {
+	cursor:pointer;
+}
+
+/* Base Typography */
+
+body {
+	color: #000;
+	font-family: "ff-meta-serif-web-pro",Georgia,"Times New Roman",serif;
+	line-height: 1.6em;
+}
+
+ol, ul {
+	list-style: square;
+	margin: 0 0 0.5em;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+code {
+	background-color: #f4f4f4;
+	font-family: Menlo, 'Panic Sans', monospace;
+	font-size: 0.875em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 0.5em;
+	max-width: 634px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	line-height: 1.41em;
+	padding-bottom: 0.33em;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+h1 {
+	font-size: 2.5005em;
+}
+
+h2 {
+	font-size: 1.667em;
+}
+
+h3, h4 {
+	font-size: 1.25em;
+}
+
+h5, h6 {
+	font-size: 1em;
+}
+
+a, a:link, a:visited {
+	color: #11bad3;
+	text-decoration: none;
+	border-bottom: 1px solid #11bad3;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+a:hover, a:active {
+	background: #00a9c2;
+	border-color: #00a9c2;
+	color: #fff;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	border: none;
+	height: 50px;
+}
+
+.grid {
+	padding: 0 20px;
+}
+
+.row {
+	margin-bottom: 1em;
+}
+
+/* FitMyVideo */
+
+.FitMyVideo-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.FitMyVideo-container iframe,	
+.vFitMyVideo-container object,	
+.vFitMyVideo-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Styles */

@@ -1,0 +1,19 @@
+/* TEAM */
+	Niklaus Gerber
+	Twitter: @niklausgerber
+	URL: http://niklausgerber.com
+	From: Bern, Switzerland
+
+/* THANKS */
+	Conor Muirhead
+	Twitter: @conormuirhead
+	URL: http://conor.cc
+	From: Santa Clara, CA, USA
+	
+/* SITE */	
+	Standards: HTML, CSS
+	Doctype: HTML
+	Language: english
+	Components: jQuery                      
+	Software: 
+	Powered by: 
