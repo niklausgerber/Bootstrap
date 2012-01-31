@@ -269,13 +269,11 @@
 <!--jQuery Plugin-->
 <script type="text/javascript" src="assets/js/jquery-1.7.1.min.js"></script>
 
-<!--Hide iOS Status Bar-->
-<script type="text/javascript">
-	//<![CDATA[
-		window.addEventListener('load', function(){
-			setTimeout(scrollTo, 0, 0, 1);
-		}, false);
-	//]]>
+<!-- Enable CSS active pseudo styles in Mobile Safari -->
+<script language="JavaScript">
+  //<![CDATA[
+    document.addEventListener("touchstart", function() {},false);
+  //]]>
 </script>
 
 </body>
