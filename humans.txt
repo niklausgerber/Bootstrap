@@ -1,8 +1,9 @@
 /* TEAM */
+	Bootstrap: https://github.com/niklausgerber/Bootstrap
 	Niklaus Gerber
 	Twitter: @niklausgerber
 	URL: http://niklausgerber.com
-	From: Bern, Switzerland
+	Location: Bern, Switzerland
 
 /* THANKS */
 	Conor Muirhead

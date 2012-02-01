@@ -487,6 +487,5 @@ Options -Indexes
 	php_value session.cookie_httponly true
 </IfModule>
 
-
 #@__HCP_END__@#
 # Anything after the comment above is left alone
