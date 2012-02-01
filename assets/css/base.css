@@ -58,7 +58,7 @@ input[type=submit], label, select, .pointer {
 
 body {
 	color: #000;
-	font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",Georgia,"Times New Roman",serif;
+	font-family: "ff-meta-serif-web-pro",Georgia,"Times New Roman",serif;
 	line-height: 1.6em;
 }
 
@@ -94,7 +94,7 @@ strong {
 
 p {
 	margin: 0 0 0.5em;
-	/* max-width: 634px; */
+	max-width: 634px;
 }
 
 h1, h2, h3, h4, h5, h6 {
