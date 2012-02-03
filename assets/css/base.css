@@ -54,6 +54,13 @@ input[type=submit], label, select, .pointer {
 	cursor:pointer;
 }
 
+/* Hack */
+@media all and (-webkit-min-device-pixel-ratio: 1){
+    selectors {
+        properties: values;
+    }
+}
+
 /* Base Typography */
 
 body {
