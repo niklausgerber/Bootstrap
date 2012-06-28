@@ -244,8 +244,8 @@ AddType text/x-vcard                   vcf
   ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
     
 # CSS and JavaScript
-  ExpiresByType text/css                  "access plus 1 year"
-  ExpiresByType application/javascript    "access plus 1 year"
+  ExpiresByType text/css                  "access plus 1 week"
+  ExpiresByType application/javascript    "access plus 1 week"
   
   <IfModule mod_headers.c>
     Header append Cache-Control "public"
@@ -486,6 +486,7 @@ Options -Indexes
 <IfModule php5_module>
 	php_value session.cookie_httponly true
 </IfModule>
+
 
 #@__HCP_END__@#
 # Anything after the comment above is left alone

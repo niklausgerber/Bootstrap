@@ -61,12 +61,12 @@ input[type=submit], label, select, .pointer {
     }
 }
 
-/* Base Typography */
+/* Basec Setup */
 
 body {
-	color: #000;
-	font-family: "ff-tisa-web-pro",Georgia,"Times New Roman",serif;
+	color: #000;	
 	line-height: 1.6em;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 ol, ul {
@@ -86,7 +86,7 @@ q:before, q:after {
 
 code {
 	background-color: #f4f4f4;
-	font-family: Menlo, 'Panic Sans', monospace;
+	font-family: "Courier New", Courier, mono;
 	font-size: 0.875em;
 }
 
@@ -99,9 +99,28 @@ strong {
 	font-weight: bold;
 }
 
+img {
+	max-width: 100%;
+}
+
+hr {
+	border: none;
+	height: 50px;
+}
+
+.grid {
+	padding: 0 20px;
+}
+
+.row {
+	margin-bottom: 1em;
+}
+
+/* Typogrpaphy */
+
 p {
 	margin: 0 0 0.5em;
-	max-width: 698px;
+	margin: 0 0 2.3em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -129,38 +148,20 @@ h5, h6 {
 }
 
 a, a:link, a:visited {
-	color: #11bad3;
-	text-decoration: none;
-	border-bottom: 1px solid #11bad3;
-	-moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	-ms-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+	color: #DB1010;
+	text-decoration: none;	
+	border: none;
 }
 
 a:hover, a:active {
-	background: #00a9c2;
-	border-color: #00a9c2;
-	color: #fff;
+	color: #CCC;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
 }
 
-img {
-	max-width: 100%;
-}
-
-hr {
-	border: none;
-	height: 50px;
-}
-
-.grid {
-	padding: 0 20px;
-}
-
-.row {
-	margin-bottom: 1em;
-}
 
 /* FitMyVideo */
 
@@ -183,3 +184,4 @@ hr {
 }
 
 /* Styles */
+

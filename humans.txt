@@ -6,9 +6,9 @@
 	Location: Bern, Switzerland
 
 /* THANKS */
-	Conor Muirhead
+	Conor Muirhead, SimpleGrid
 	Twitter: @conormuirhead
-	URL: http://conor.cc
+	URL: http://conor.cc/
 	From: Santa Clara, CA, USA
 	
 /* SITE */	
