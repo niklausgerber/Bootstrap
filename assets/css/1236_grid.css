@@ -4,7 +4,7 @@
  *  License: http://creativecommons.org/licenses/MIT/	*/
 
 /* Containers */
-body { font-size: 125%; }
+body { font-size: 1.12500em; }
 .grid{ width:1206px; }
 
 /* 6-Col Grid Sizes */
