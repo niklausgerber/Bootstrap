@@ -59,6 +59,12 @@ a:focus {
 	outline: thin dotted; 
 }
 
+p a {
+	margin: -.5em;
+	padding: .5em;
+	position: relative;
+}
+
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 
 a:hover, a:active { 
